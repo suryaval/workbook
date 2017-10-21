@@ -1,6 +1,4 @@
 # workbook
-Repository of all my works will be collectively showcased here.
-
 # Apache Kafka
 The following steps are to 
 1. install Apache Kafka

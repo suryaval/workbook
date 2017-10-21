@@ -1,0 +1,11 @@
+OpenJDK 64-Bit Server VM (25.121-b13) for linux-amd64 JRE (1.8.0_121-b13), built on Jan 20 2017 16:56:20 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-11)
+Memory: 4k page, physical 2915996k(121180k free), swap 3145724k(3145716k free)
+CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -XX:InitialHeapSize=536870912 -XX:+ManagementServer -XX:MaxHeapSize=536870912 -XX:MaxNewSize=87244800 -XX:MaxTenuringThreshold=6 -XX:NewSize=87244800 -XX:OldPLABSize=16 -XX:OldSize=174489600 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+Heap
+ par new generation   total 76672K, used 27267K [0x00000000e0000000, 0x00000000e5330000, 0x00000000e5330000)
+  eden space 68160K,  40% used [0x00000000e0000000, 0x00000000e1aa0fe0, 0x00000000e4290000)
+  from space 8512K,   0% used [0x00000000e4290000, 0x00000000e4290000, 0x00000000e4ae0000)
+  to   space 8512K,   0% used [0x00000000e4ae0000, 0x00000000e4ae0000, 0x00000000e5330000)
+ concurrent mark-sweep generation total 439104K, used 0K [0x00000000e5330000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 11009K, capacity 11176K, committed 11264K, reserved 1058816K
+  class space    used 1161K, capacity 1250K, committed 1280K, reserved 1048576K

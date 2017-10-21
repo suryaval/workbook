@@ -1,0 +1,18 @@
+OpenJDK 64-Bit Server VM (25.121-b13) for linux-amd64 JRE (1.8.0_121-b13), built on Jan 20 2017 16:56:20 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-11)
+Memory: 4k page, physical 2915996k(183948k free), swap 3145724k(3144648k free)
+CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -XX:InitialHeapSize=1073741824 -XX:+ManagementServer -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=87244800 -XX:MaxTenuringThreshold=6 -XX:NewSize=87244800 -XX:OldPLABSize=16 -XX:OldSize=174489600 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+2017-10-20T19:04:20.250-0400: 7.298: [GC (Allocation Failure) 2017-10-20T19:04:20.250-0400: 7.298: [ParNew: 68160K->8512K(76672K), 0.0289897 secs] 68160K->9157K(1040064K), 0.0291004 secs] [Times: user=0.02 sys=0.01, real=0.03 secs] 
+2017-10-20T19:08:32.277-0400: 259.326: [GC (CMS Initial Mark) [1 CMS-initial-mark: 645K(963392K)] 42595K(1040064K), 0.0359699 secs] [Times: user=0.02 sys=0.01, real=0.04 secs] 
+2017-10-20T19:08:32.313-0400: 259.362: [CMS-concurrent-mark-start]
+2017-10-20T19:08:32.321-0400: 259.369: [CMS-concurrent-mark: 0.008/0.008 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2017-10-20T19:08:32.321-0400: 259.369: [CMS-concurrent-preclean-start]
+2017-10-20T19:08:32.323-0400: 259.371: [CMS-concurrent-preclean: 0.002/0.002 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2017-10-20T19:08:32.323-0400: 259.371: [CMS-concurrent-abortable-preclean-start]
+ CMS: abort preclean due to time 2017-10-20T19:08:37.381-0400: 264.429: [CMS-concurrent-abortable-preclean: 1.294/5.058 secs] [Times: user=1.41 sys=0.00, real=5.06 secs] 
+2017-10-20T19:08:37.381-0400: 264.429: [GC (CMS Final Remark) [YG occupancy: 41949 K (76672 K)]2017-10-20T19:08:37.381-0400: 264.429: [GC (CMS Final Remark) 2017-10-20T19:08:37.381-0400: 264.429: [ParNew: 41949K->4189K(76672K), 0.0465050 secs] 42595K->7692K(1040064K), 0.0465698 secs] [Times: user=0.04 sys=0.00, real=0.04 secs] 
+2017-10-20T19:08:37.428-0400: 264.476: [Rescan (parallel) , 0.0085786 secs]2017-10-20T19:08:37.436-0400: 264.484: [weak refs processing, 0.0000223 secs]2017-10-20T19:08:37.436-0400: 264.484: [class unloading, 0.0028235 secs]2017-10-20T19:08:37.439-0400: 264.487: [scrub symbol table, 0.0026309 secs]2017-10-20T19:08:37.442-0400: 264.490: [scrub string table, 0.0004842 secs][1 CMS-remark: 3502K(963392K)] 7692K(1040064K), 0.0617275 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+2017-10-20T19:08:37.446-0400: 264.494: [CMS-concurrent-sweep-start]
+2017-10-20T19:08:37.448-0400: 264.496: [CMS-concurrent-sweep: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2017-10-20T19:08:37.448-0400: 264.496: [CMS-concurrent-reset-start]
+2017-10-20T19:08:37.474-0400: 264.522: [CMS-concurrent-reset: 0.021/0.026 secs] [Times: user=0.01 sys=0.02, real=0.02 secs] 
+2017-10-20T19:44:44.656-0400: 2431.704: [GC (Allocation Failure) 2017-10-20T19:44:44.656-0400: 2431.704: [ParNew: 72349K->885K(76672K), 0.0153927 secs] 75852K->4388K(1040064K), 0.0154862 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 

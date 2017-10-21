@@ -1,5 +1,9 @@
-# workbook
-Repository of all my works will be collectively showcased here.
+# Cloud Formation
+Sample CF templates to spin up a LAMP stack application. - AWS Dev Preparation
+
+# GoCD
+GoCD is an opensource CI/CD tool.
+Custom scripts to address build and release challenges.
 
 # Apache Kafka
 The following steps are to 

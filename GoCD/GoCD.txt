@@ -1,0 +1,30 @@
+Manage GoCD Agents
+#################
+/var/lib/go-server       #contains the binaries and database
+/etc/go                  #contains the pipeline configuration files
+/var/log/go-server       #contains the server logs
+/usr/share/go-server     #contains the start script
+/etc/default/go-server   #contains all the environment variables with default values. These variable values can be changed as per requirement.
+
+##########PIPELINE MAKER
+go_server=""
+
+go_server_env_url=$go_server+"api/admin/environments/"
+
+userid="EinsteinTest";
+passw="";
+service_name="some-random-service"
+
+curl -k $go_server_env_url+"/MS-Dev" \
+            -u $userid:$passw 
+            -H "Accept: application/vnd.go.cd.v1+json" \
+            -H "Content-Type: application/json" \
+            -X PATCH \
+            -d "{
+              "pipelines": {
+                "add": [
+                  "$service_name-dev"
+                ]
+              }
+            }"
+curl -d '{ "pipelines": {"add": ["emc-ms-additional-services-dev"]}}' -H "Content-Type: application/json" -u $userid:$passw -X POST https://negocd-wc-1p.sys..net:8154/go/api/admin/environments/MS-Dev

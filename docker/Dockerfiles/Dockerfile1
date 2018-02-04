@@ -1,0 +1,14 @@
+FROM centos:latest
+LABEL maintainer="hub.docker.com/r/surval"
+RUN yum update -y && \
+        yum install epel-release && \
+        yum install python-pip && \
+        yum install nginx
+CMD ["python"]
+EXPOSE 80
+ENV PATH /usr/local/nginx/bin:$PATH
+#ENTRYPOINT 
+#VOLUME
+#USER
+#WORKDIR
+#ONBUILD

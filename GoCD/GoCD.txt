@@ -27,4 +27,4 @@ curl -k $go_server_env_url+"/MS-Dev" \
                 ]
               }
             }"
-curl -d '{ "pipelines": {"add": ["emc-ms-additional-services-dev"]}}' -H "Content-Type: application/json" -u $userid:$passw -X POST https://negocd-wc-1p.sys..net:8154/go/api/admin/environments/MS-Dev
+curl -d '{ "pipelines": {"add": ["emc-ms-additional-services-dev"]}}' -H "Content-Type: application/json" -u $userid:$passw -X POST https://:8154/go/api/admin/environments/MS-Dev

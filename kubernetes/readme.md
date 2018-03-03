@@ -11,3 +11,7 @@ Use the YAML file for pod definitions
 ` $ kubectl get services `
 
 ` $ kubectl create -f rsvp-web-service.yaml `
+
+` $ kubectl get deployments `
+
+` $ kubectl get services `

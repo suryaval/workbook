@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/suryaval/workbook.svg?branch=master)](https://travis-ci.org/suryaval/workbook)
 
+![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen.svg?maxAge=2592000)
+
 ## Cloud Formation
 Sample CF templates to spin up a LAMP stack application. - AWS Dev Preparation
 

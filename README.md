@@ -25,3 +25,13 @@ Python Flask API to GET info about the current status of EC2 instances.
 > Available as ready to be deployable Docker container: https://hub.docker.com/r/surval/aws-ec2-describe/
 
 > Available to be deployed on Pivotal Cloud Foundry: https://hub.docker.com/r/surval/cf-flask-app/
+
+## Activate Pyenv
+
+```
+virtualenv -p /usr/bin/python venv
+Running virtualenv with interpreter /usr/bin/python2.7
+New python executable in /Users/suryaval/workspace/journeyman/venv/bin/python
+Installing setuptools, pip, wheel...done.
+source venv/bin/activate
+```

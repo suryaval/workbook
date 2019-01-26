@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx
-    command: ["which", "nginx"]
-    imagePullPolicy: IfNotPresent
+      image: nginx
+      command: ["which", "nginx"]
+      imagePullPolicy: IfNotPresent
   restartPolicy: Always

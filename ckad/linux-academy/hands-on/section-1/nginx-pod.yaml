@@ -7,8 +7,6 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    command:
-      - which
-      - nginx
-      imagePullPolicy: IfNotPresent
+    command: ["which", "nginx"]
+    imagePullPolicy: IfNotPresent
   restartPolicy: Always

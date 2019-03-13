@@ -38,4 +38,4 @@ source venv/bin/activate
 
 ## HELM
 
-![alt text](./helm.png)
+![](./helm-icon.png)

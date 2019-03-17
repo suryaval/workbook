@@ -18,3 +18,5 @@ Forwarding from [::1]:8080 -> 4040
 Handling connection for 8080
 Handling connection for 8080
 ```
+
+![Visualizing K8s cluster with weavescope](./weavescope-img.png)

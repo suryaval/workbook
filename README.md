@@ -39,3 +39,7 @@ source venv/bin/activate
 ## HELM
 
 ![](./helm-icon.png)
+
+## Kubernetes
+
+![](https://kubernetes.io/images/kubernetes-horizontal-color.png)

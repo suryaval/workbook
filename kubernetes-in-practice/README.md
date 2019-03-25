@@ -4,6 +4,13 @@
 
 Docker for Desktop on Mac
 
+## Useful Kubernetes tooling 
+todo: put this in a table with functionality
+
+1. kube-job-cleaner
+
+2. Descheduler
+
 ## Kubernetes Kinds
 
 1. Deployments

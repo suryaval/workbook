@@ -18,6 +18,6 @@ Docker for Desktop on Mac
 
 6. Policy
 
-7. Namespaces
+7. [Namespaces](https://github.com/suryaval/workbook/blob/master/kubernetes-in-practice/namespace.yaml)
 
-8. ResourceQuotas
+8. [ResourceQuotas](https://github.com/suryaval/workbook/blob/master/kubernetes-in-practice/ResourceQuota.yaml)

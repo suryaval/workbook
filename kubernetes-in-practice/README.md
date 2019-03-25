@@ -22,4 +22,8 @@ Docker for Desktop on Mac
 
 8. [ResourceQuotas](https://github.com/suryaval/workbook/blob/master/kubernetes-in-practice/ResourceQuota.yaml)
 
+> kubectl get resourcequotas
+
 9. [LimitRange](./LimitRange.yaml)
+
+> kubectl get limitrange

@@ -21,3 +21,5 @@ Docker for Desktop on Mac
 7. [Namespaces](https://github.com/suryaval/workbook/blob/master/kubernetes-in-practice/namespace.yaml)
 
 8. [ResourceQuotas](https://github.com/suryaval/workbook/blob/master/kubernetes-in-practice/ResourceQuota.yaml)
+
+9. [LimitRange](./LimitRange.yaml)

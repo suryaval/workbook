@@ -7,9 +7,19 @@ Docker for Desktop on Mac
 ## Useful Kubernetes tooling 
 todo: put this in a table with functionality
 
-1. kube-job-cleaner
+1. kube-job-cleaner - cleans completed jobs
 
-2. Descheduler
+2. Descheduler - removes unnecessary workloads off the node and schedule it on another available under utilized node
+
+3. Sonobuoy - runs conformance tests
+
+4. K8sGuard - auditing system for Kubernetes clusters
+
+5. Copper - validates kubernetes manifests before they are deployed (can write custom policies using DSL)
+
+6. KubeBench - CIS compliance checks
+
+7. kubeval - validates k8s manifests
 
 ## Kubernetes Kinds
 

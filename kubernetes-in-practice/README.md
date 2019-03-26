@@ -21,6 +21,8 @@ todo: put this in a table with functionality
 
 7. kubeval - validates k8s manifests
 
+8. chaoskube, kube-monkey
+
 ## Kubernetes Kinds
 
 1. Deployments

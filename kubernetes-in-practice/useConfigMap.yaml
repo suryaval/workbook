@@ -1,0 +1,6 @@
+env:
+        - name: MAINTAINER
+          valueFrom:
+            configMapKeyRef:
+              name: sample-config
+              key: owner

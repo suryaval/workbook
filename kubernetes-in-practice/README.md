@@ -46,3 +46,7 @@ todo: put this in a table with functionality
 9. [LimitRange](./LimitRange.yaml)
 
     > kubectl get limitrange
+
+10. [ConfigMap](./ConfigMap.yaml)
+
+    >   kubectl get cm

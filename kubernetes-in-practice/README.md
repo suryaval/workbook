@@ -65,4 +65,4 @@ todo: put this in a table with functionality
 
 ### Role Bindings
 
-[Role Bindings](./RoleBindings.md)
+[Role Bindings](./Roles.md)

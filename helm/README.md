@@ -94,3 +94,7 @@ kube-system   tiller-deploy-59c6b4dd6-p8whz                         1/1       Ru
 ## Helm Repo addition
 
 ` helm repo add repo-name <url> --username <uname> --password <pwd>`
+
+## Delete a Helm release
+
+`helm del --purge <RELEASE_NAME>`

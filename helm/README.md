@@ -90,3 +90,7 @@ kube-system   kube-proxy-bd8gf                                      1/1       Ru
 kube-system   kube-scheduler-docker-for-desktop                     1/1       Running   0          1h
 kube-system   tiller-deploy-59c6b4dd6-p8whz                         1/1       Running   0          14m
 ```
+
+## Helm Repo addition
+
+` helm repo add repo-name <url> --username <uname> --password <pwd>`

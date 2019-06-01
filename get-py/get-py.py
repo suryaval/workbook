@@ -25,7 +25,7 @@ cloudFormation = [{
 "Parameters" : {
       
     "KeyName": {
-      "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instance",
+      "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instance some random message",
       "Type": "AWS::EC2::KeyPair::KeyName",
       "ConstraintDescription" : "must be the name of an existing EC2 KeyPair."
     }

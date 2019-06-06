@@ -2,3 +2,9 @@ language: go
 script:
   - cd go/
   - go run hey/hey.go
+  - go run getEnvVar/getEnvVar.go
+  - go run inner/inner.go
+  - go run passByRef/passByRef.go
+  - go run passByValue/passByValue.go
+  - go run variable/variable.go
+  - go run variables/variables.go

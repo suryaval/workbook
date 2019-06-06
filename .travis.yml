@@ -1,6 +1,4 @@
 language: go
-go:
-  - 1.x
 script:
   - cd go/
   - go run hey.go

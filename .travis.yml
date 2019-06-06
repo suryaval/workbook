@@ -1,4 +1,4 @@
 language: go
 script:
   - cd go/
-  - go run hey.go
+  - go run hey/hey.go

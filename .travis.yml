@@ -1,9 +1,5 @@
-language: python
-python:
-  - "2.7"
-# command to install dependencies
-install:
-  - pip install -r requirements.txt
+language: go
+go:
+  - 1.x
 script:
-  - ls
-  - ls|wc -l
+  - go run go/hey.go

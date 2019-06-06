@@ -2,4 +2,5 @@ language: go
 go:
   - 1.x
 script:
-  - go run go/hey.go
+  - cd go/
+  - go run hey.go

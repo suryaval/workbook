@@ -6,7 +6,7 @@ if a `fallthrough` keyword is present, it would execute the next case condition
 
 #### OutPut of sw.go with fallthrough
 
-FileName: (./sw.go)
+[FallThrough Example](./with-fallthrough.go)
 
 OutPut:
 

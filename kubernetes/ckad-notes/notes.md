@@ -44,3 +44,20 @@ spec:
  NAME        READY   STATUS    RESTARTS   AGE
  surya-pod   1/1     Running   0          18s
  ```
+ 
+ #### Creating Resource Quotas
+ 
+ 
+ 
+ ```
+ kubectl describe quota hard-limit-quota -n surya-namespace
+Name:            hard-limit-quota
+Namespace:       surya-namespace
+Resource         Used  Hard
+--------         ----  ----
+limits.cpu       0     3
+limits.memory    0     4Gi
+pods             7     10
+requests.cpu     0     2
+requests.memory  0     2Gi
+ ```

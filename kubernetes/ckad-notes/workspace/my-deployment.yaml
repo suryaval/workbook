@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: surya-deployment
+  namespace: surya-namespace
+  labels:
+    type: api-gateway
+    dependsOn: nginx
+    app: my-deployment
+spec:
+  template:
+    metadata:
+      labels:
+        type: api-gateway
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+      - name: kong
+        image: kong:latest
+  replicas: 10
+  selector:
+    matchLabels:
+      type: api-gateway
